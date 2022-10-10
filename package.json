@@ -7,9 +7,13 @@
     "build": "npm run build:client && npm run build:server",
     "build:client": "cd client && npm install && npm run build",
     "build:server": "cd server && npm install",
-    "start": "cd server && npm start"
+    "start": "cd server && npm start",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
 }
